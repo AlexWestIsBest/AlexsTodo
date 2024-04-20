@@ -11,6 +11,15 @@
 		5950B3D52B69DE8F003A1317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3D42B69DE8F003A1317 /* ContentView.swift */; };
 		5950B3D72B69DE91003A1317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5950B3D62B69DE91003A1317 /* Assets.xcassets */; };
 		5950B3DA2B69DE91003A1317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5950B3D92B69DE91003A1317 /* Preview Assets.xcassets */; };
+		5950B3E12B69F607003A1317 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3E02B69F606003A1317 /* Checklist.swift */; };
+		5950B3E32B6B44F4003A1317 /* Dailies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3E22B6B44F4003A1317 /* Dailies.swift */; };
+		5950B3E52B6B469D003A1317 /* Monthlies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3E42B6B469D003A1317 /* Monthlies.swift */; };
+		5950B3E72B6F3E5A003A1317 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3E62B6F3E5A003A1317 /* MenuButton.swift */; };
+		5950B3E92B71E06C003A1317 /* MealBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3E82B71E06C003A1317 /* MealBreak.swift */; };
+		5950B3EB2B71F1C2003A1317 /* Journaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3EA2B71F1C2003A1317 /* Journaling.swift */; };
+		59AF52E12B86E229000184AF /* Weeklies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AF52E02B86E229000184AF /* Weeklies.swift */; };
+		59AF52E32B8CFD2A000184AF /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AF52E22B8CFD2A000184AF /* ChecklistItem.swift */; };
+		59AF52E52B8D36D2000184AF /* Dingbats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AF52E42B8D36D2000184AF /* Dingbats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		5950B3D42B69DE8F003A1317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5950B3D62B69DE91003A1317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5950B3D92B69DE91003A1317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5950B3E02B69F606003A1317 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		5950B3E22B6B44F4003A1317 /* Dailies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dailies.swift; sourceTree = "<group>"; };
+		5950B3E42B6B469D003A1317 /* Monthlies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monthlies.swift; sourceTree = "<group>"; };
+		5950B3E62B6F3E5A003A1317 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		5950B3E82B71E06C003A1317 /* MealBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBreak.swift; sourceTree = "<group>"; };
+		5950B3EA2B71F1C2003A1317 /* Journaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journaling.swift; sourceTree = "<group>"; };
+		59AF52E02B86E229000184AF /* Weeklies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weeklies.swift; sourceTree = "<group>"; };
+		59AF52E22B8CFD2A000184AF /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		59AF52E42B8D36D2000184AF /* Dingbats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dingbats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,10 @@
 			children = (
 				5950B3D22B69DE8F003A1317 /* Routine2App.swift */,
 				5950B3D42B69DE8F003A1317 /* ContentView.swift */,
+				5950B3E22B6B44F4003A1317 /* Dailies.swift */,
+				59AF52E02B86E229000184AF /* Weeklies.swift */,
+				5950B3E42B6B469D003A1317 /* Monthlies.swift */,
+				5950B3EC2B71F1D8003A1317 /* Building Blocks */,
 				5950B3D62B69DE91003A1317 /* Assets.xcassets */,
 				5950B3D82B69DE91003A1317 /* Preview Content */,
 			);
@@ -65,6 +87,19 @@
 				5950B3D92B69DE91003A1317 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5950B3EC2B71F1D8003A1317 /* Building Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				59AF52E42B8D36D2000184AF /* Dingbats.swift */,
+				5950B3E62B6F3E5A003A1317 /* MenuButton.swift */,
+				5950B3E02B69F606003A1317 /* Checklist.swift */,
+				59AF52E22B8CFD2A000184AF /* ChecklistItem.swift */,
+				5950B3E82B71E06C003A1317 /* MealBreak.swift */,
+				5950B3EA2B71F1C2003A1317 /* Journaling.swift */,
+			);
+			path = "Building Blocks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5950B3E52B6B469D003A1317 /* Monthlies.swift in Sources */,
+				59AF52E52B8D36D2000184AF /* Dingbats.swift in Sources */,
+				59AF52E32B8CFD2A000184AF /* ChecklistItem.swift in Sources */,
+				59AF52E12B86E229000184AF /* Weeklies.swift in Sources */,
 				5950B3D52B69DE8F003A1317 /* ContentView.swift in Sources */,
 				5950B3D32B69DE8F003A1317 /* Routine2App.swift in Sources */,
+				5950B3E12B69F607003A1317 /* Checklist.swift in Sources */,
+				5950B3EB2B71F1C2003A1317 /* Journaling.swift in Sources */,
+				5950B3E92B71E06C003A1317 /* MealBreak.swift in Sources */,
+				5950B3E72B6F3E5A003A1317 /* MenuButton.swift in Sources */,
+				5950B3E32B6B44F4003A1317 /* Dailies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +319,7 @@
 				DEVELOPMENT_TEAM = 52AJ924NLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focalo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +349,7 @@
 				DEVELOPMENT_TEAM = 52AJ924NLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focalo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
