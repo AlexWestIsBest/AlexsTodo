@@ -50,6 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5943D4C12BD7143B008E9B11 /* Non-MVP */ = {
+			isa = PBXGroup;
+			children = (
+				59AF52E42B8D36D2000184AF /* Dingbats.swift */,
+				5950B3E22B6B44F4003A1317 /* Dailies.swift */,
+				5950B3EA2B71F1C2003A1317 /* Journaling.swift */,
+				5950B3E82B71E06C003A1317 /* MealBreak.swift */,
+				59AF52E02B86E229000184AF /* Weeklies.swift */,
+				5950B3E42B6B469D003A1317 /* Monthlies.swift */,
+			);
+			path = "Non-MVP";
+			sourceTree = "<group>";
+		};
 		5950B3C62B69DE8F003A1317 = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +84,8 @@
 			children = (
 				5950B3D22B69DE8F003A1317 /* Routine2App.swift */,
 				5950B3D42B69DE8F003A1317 /* ContentView.swift */,
-				5950B3E22B6B44F4003A1317 /* Dailies.swift */,
-				59AF52E02B86E229000184AF /* Weeklies.swift */,
-				5950B3E42B6B469D003A1317 /* Monthlies.swift */,
 				5950B3EC2B71F1D8003A1317 /* Building Blocks */,
+				5943D4C12BD7143B008E9B11 /* Non-MVP */,
 				5950B3D62B69DE91003A1317 /* Assets.xcassets */,
 				5950B3D82B69DE91003A1317 /* Preview Content */,
 			);
@@ -92,12 +103,9 @@
 		5950B3EC2B71F1D8003A1317 /* Building Blocks */ = {
 			isa = PBXGroup;
 			children = (
-				59AF52E42B8D36D2000184AF /* Dingbats.swift */,
 				5950B3E62B6F3E5A003A1317 /* MenuButton.swift */,
 				5950B3E02B69F606003A1317 /* Checklist.swift */,
 				59AF52E22B8CFD2A000184AF /* ChecklistItem.swift */,
-				5950B3E82B71E06C003A1317 /* MealBreak.swift */,
-				5950B3EA2B71F1C2003A1317 /* Journaling.swift */,
 			);
 			path = "Building Blocks";
 			sourceTree = "<group>";
@@ -319,7 +327,7 @@
 				DEVELOPMENT_TEAM = 52AJ924NLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Focalo;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alex's Todo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,7 +357,7 @@
 				DEVELOPMENT_TEAM = 52AJ924NLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Focalo;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alex's Todo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
