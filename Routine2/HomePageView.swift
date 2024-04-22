@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomePageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Home page view!")
+        Text("Name up top, checklist items below. Add new items is at bottom. Modal hidden somewhere to run through a tab group where you can create a new checklist for the day in a few steps.")
     }
 }
 

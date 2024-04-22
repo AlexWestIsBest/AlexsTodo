@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5943D4C32BD71566008E9B11 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943D4C22BD71566008E9B11 /* HomePageView.swift */; };
 		5950B3D32B69DE8F003A1317 /* Routine2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3D22B69DE8F003A1317 /* Routine2App.swift */; };
 		5950B3D52B69DE8F003A1317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5950B3D42B69DE8F003A1317 /* ContentView.swift */; };
 		5950B3D72B69DE91003A1317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5950B3D62B69DE91003A1317 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5943D4C22BD71566008E9B11 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		5950B3CF2B69DE8F003A1317 /* Routine2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routine2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5950B3D22B69DE8F003A1317 /* Routine2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine2App.swift; sourceTree = "<group>"; };
 		5950B3D42B69DE8F003A1317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				5950B3D22B69DE8F003A1317 /* Routine2App.swift */,
 				5950B3D42B69DE8F003A1317 /* ContentView.swift */,
+				5943D4C22BD71566008E9B11 /* HomePageView.swift */,
 				5950B3EC2B71F1D8003A1317 /* Building Blocks */,
 				5943D4C12BD7143B008E9B11 /* Non-MVP */,
 				5950B3D62B69DE91003A1317 /* Assets.xcassets */,
@@ -190,6 +193,7 @@
 				5950B3EB2B71F1C2003A1317 /* Journaling.swift in Sources */,
 				5950B3E92B71E06C003A1317 /* MealBreak.swift in Sources */,
 				5950B3E72B6F3E5A003A1317 /* MenuButton.swift in Sources */,
+				5943D4C32BD71566008E9B11 /* HomePageView.swift in Sources */,
 				5950B3E32B6B44F4003A1317 /* Dailies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
